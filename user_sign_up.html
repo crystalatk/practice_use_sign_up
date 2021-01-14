@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+</head>
+<body>
+    <main class="wrapper">
+        <section class="header">
+            <h1 class="is-large has-text-primary">User Sign up!</h1>
+            <p class="has-text-primary">Thank you for becoming a member!</p>
+        </section>
+        <section class="main-border">
+            <form action="#" method="POST">
+                <!-- Fieldset -->
+                <fieldset class="border">
+                    <legend class="has-text-primary">Create an Account</legend>
+                <!-- Name -->
+                <div class="field">
+                    <label class="label has-text-primary" for="inputName">Name</label>
+                    <div class="control">
+                    <input id="inputName" class="input" type="text" placeholder="Please enter your name" required>
+                    </div>
+                </div>
+                <!-- Password -->
+                <div class="field">
+                    <label class="label has-text-primary" for="inputPassword">Password</label>
+                    <div class="control">
+                    <input id="inputPassword" class="input is-normal" type="password" placeholder="Please Enter a Valid Password" required>
+                    </div>
+                </div>
+                <!-- Email -->
+                <div class="field">
+                    <label class="label has-text-primary" for="inputEmail">Email</label>
+                    <div class="control">
+                    <input id="inputEmail" class="input is-normal" type="email" placeholder="Please enter a valid email" required>
+                    </div>
+                </div>
+                <!-- telephone -->
+                <div class="field">
+                    <label class="label has-text-primary" for="inputTelNum">Telephone Number</label>
+                    <div class="control">
+                    <input id="inputTelNum" class="input" type="text" placeholder="XXX-XXX-XXXX" required>
+                    </div>
+                </div>
+                <!-- Tell me About Yourself -->
+                <div class="field">
+                    <label class="label has-text-primary" for="inputAbout">Tell me about yourself....</label>
+                    <div class="control">
+                    <textarea id="inputAbout" class="textarea" placeholder="A little about me...."></textarea>
+                    </div>
+                </div>
+                <!-- Where did you hear about us -->
+                <div class="field">
+                    <label class="label has-text-primary" for="inputWhere">Where did you hear about us?</label>
+                    <div class="control is-flex-direction-column">
+                        <label class="radio">
+                            <input type="radio" name="answer">
+                            Radio
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="answer">
+                            Friend
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="answer">
+                            Work
+                        </label>
+                        <label class="radio">
+                            <input class=" radioOther" type="radio" name="answer">
+                            Other
+                        </label>
+                        <textarea id="inputWhere" class="textarea is-hidden" placeholder="Please tell us where you heard about us."></textarea>
+                    </div>
+                </div>
+                </fieldset>
+                <!-- Submit Button -->
+                <div class="field is-grouped">
+                    <div class="control">
+                    <button class="button is-link has-background-primary has-text-light">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+<script src="js/scripts.js"></script>
+</html>
