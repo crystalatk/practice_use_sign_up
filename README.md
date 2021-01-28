@@ -1,3 +1,3 @@
 # Practice: Signing up users
 
-Here I will practice what I have learned about input fields to collect information from a user. As I prgress with back-end, I will be able to store and use this information.
+Information is collected from the user via input fields. Later, this information will be stored in the back-end of a full-stack project.
